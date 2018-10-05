@@ -1,0 +1,4 @@
+- name: executando role pre requisitos
+  hosts: docker
+  roles:
+   - prereqs
